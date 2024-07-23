@@ -19,7 +19,7 @@
 
 .banner {
     min-height: 40vh;
-    background-image: url(https://img.freepik.com/fotos-gratis/retrato-de-engenheiros-durante-as-horas-de-trabalho-no-local-de-trabalho_23-2151589535.jpg?t=st=1721674205~exp=1721677805~hmac=0ed8bfb97de09fa9c1eb0e14b4ba7fa07967212ab496235a7e89a31d5907e244&w=1480);
+    background-image: url(https://images.pexels.com/photos/585418/pexels-photo-585418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
