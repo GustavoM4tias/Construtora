@@ -1,0 +1,912 @@
+{
+  "empreendimentos": [
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "17000000",
+      "estado": "SP",
+      "cidade": "Bauru",
+      "bairro": "Centro",
+      "localizacao": "Avenida Nações Unidas, Bauru - SP",
+      "statusConstrucao": "Lançamento",
+      "statusEmpreendimento": "Venda",
+      "estagioConclusao": 20,
+      "categoria": "Minha Casa Minha Vida",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Bauru"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Bauru"
+        }
+      ],
+      "diferencias": [
+        "2 Quartos",
+        "1 Vaga Garagem",
+        "Área de Lazer",
+        "Salão de Festas"
+      ],
+      "nomeEmpreendimento": "Residencial Bauru"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "17000001",
+      "estado": "SP",
+      "cidade": "Garça",
+      "bairro": "Vila Mariana",
+      "localizacao": "Rua Principal, Garça - SP",
+      "statusConstrucao": "Pronto para Morar",
+      "statusEmpreendimento": "Finalizado",
+      "estagioConclusao": 100,
+      "categoria": "Minha Casa Minha Vida",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Garça"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Garça"
+        }
+      ],
+      "diferencias": [
+        "2 Quartos",
+        "1 Vaga Garagem",
+        "Playground",
+        "Churrasqueira"
+      ],
+      "nomeEmpreendimento": "Residencial Garça"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "01000000",
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Jardins",
+      "localizacao": "Avenida Paulista, São Paulo - SP",
+      "statusConstrucao": "Em Obras",
+      "statusEmpreendimento": "Venda",
+      "estagioConclusao": 50,
+      "categoria": "Alto Padrão",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora São Paulo"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis São Paulo"
+        }
+      ],
+      "diferencias": [
+        "4 Quartos",
+        "3 Vagas Garagem",
+        "Piscina Aquecida",
+        "Academia",
+        "Área Gourmet"
+      ],
+      "nomeEmpreendimento": "Residencial São Paulo"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "15115000",
+      "estado": "SP",
+      "cidade": "Bady Bassit",
+      "bairro": "Centro",
+      "localizacao": "Rua Central, Bady Bassit - SP",
+      "statusConstrucao": "Lançamento",
+      "statusEmpreendimento": "Ultimas Unidades",
+      "estagioConclusao": 10,
+      "categoria": "Minha Casa Minha Vida",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Bady Bassit"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Bady Bassit"
+        }
+      ],
+      "diferencias": [
+        "3 Quartos",
+        "2 Vagas Garagem",
+        "Piscina",
+        "Salão de Festas",
+        "Playground"
+      ],
+      "nomeEmpreendimento": "Residencial Bady Bassit"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "79800000",
+      "estado": "MS",
+      "cidade": "Dourados",
+      "bairro": "Centro",
+      "localizacao": "Avenida Marcelino Pires, Dourados - MS",
+      "statusConstrucao": "Pronto para Morar",
+      "statusEmpreendimento": "Finalizado",
+      "estagioConclusao": 100,
+      "categoria": "Alto Padrão",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Dourados"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Dourados"
+        }
+      ],
+      "diferencias": [
+        "4 Quartos",
+        "4 Vagas Garagem",
+        "Área Gourmet",
+        "Piscina",
+        "Sauna",
+        "Quadra Poliesportiva"
+      ],
+      "nomeEmpreendimento": "Residencial Dourados"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "17000002",
+      "estado": "SP",
+      "cidade": "Bauru",
+      "bairro": "Jardim Bela Vista",
+      "localizacao": "Rua das Flores, Bauru - SP",
+      "statusConstrucao": "Em Obras",
+      "statusEmpreendimento": "Finalizado",
+      "estagioConclusao": 60,
+      "categoria": "Alto Padrão",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Bauru"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Bauru"
+        }
+      ],
+      "diferencias": [
+        "5 Quartos",
+        "4 Vagas Garagem",
+        "Piscina",
+        "Salão de Festas",
+        "Academia"
+      ],
+      "nomeEmpreendimento": "Residencial Bela Vista"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "17000003",
+      "estado": "SP",
+      "cidade": "Bauru",
+      "bairro": "Vila Universitária",
+      "localizacao": "Avenida Engenheiro Luiz Edmundo Carrijo Coube, Bauru - SP",
+      "statusConstrucao": "Pronto para Morar",
+      "statusEmpreendimento": "Finalizado",
+      "estagioConclusao": 100,
+      "categoria": "Minha Casa Minha Vida",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Bauru"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Bauru"
+        }
+      ],
+      "diferencias": [
+        "2 Quartos",
+        "1 Vaga Garagem",
+        "Área de Lazer",
+        "Playground"
+      ],
+      "nomeEmpreendimento": "Residencial Universitária"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "17000004",
+      "estado": "SP",
+      "cidade": "Garça",
+      "bairro": "Centro",
+      "localizacao": "Rua Principal, Garça - SP",
+      "statusConstrucao": "Pronto para Morar",
+      "statusEmpreendimento": "Venda",
+      "estagioConclusao": 100,
+      "categoria": "Alto Padrão",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Garça"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Garça"
+        }
+      ],
+      "diferencias": [
+        "3 Quartos",
+        "2 Vagas Garagem",
+        "Piscina",
+        "Sauna",
+        "Quadra Poliesportiva"
+      ],
+      "nomeEmpreendimento": "Residencial Garça Centro"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "17000005",
+      "estado": "SP",
+      "cidade": "Garça",
+      "bairro": "Jardim Europa",
+      "localizacao": "Rua das Oliveiras, Garça - SP",
+      "statusConstrucao": "Em Obras",
+      "statusEmpreendimento": "Venda",
+      "estagioConclusao": 40,
+      "categoria": "Minha Casa Minha Vida",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Garça"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Garça"
+        }
+      ],
+      "diferencias": [
+        "2 Quartos",
+        "1 Vaga Garagem",
+        "Playground",
+        "Churrasqueira"
+      ],
+      "nomeEmpreendimento": "Residencial Europa"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "01000002",
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Brooklin",
+      "localizacao": "Avenida Engenheiro Luís Carlos Berrini, São Paulo - SP",
+      "statusConstrucao": "Lançamento",
+      "statusEmpreendimento": "Ultimas Unidades",
+      "estagioConclusao": 30,
+      "categoria": "Alto Padrão",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora São Paulo"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis São Paulo"
+        }
+      ],
+      "diferencias": [
+        "4 Quartos",
+        "3 Vagas Garagem",
+        "Piscina Aquecida",
+        "Academia",
+        "Área Gourmet"
+      ],
+      "nomeEmpreendimento": "Residencial Brooklin"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "01000003",
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Vila Olímpia",
+      "localizacao": "Rua Olimpíadas, São Paulo - SP",
+      "statusConstrucao": "Pronto para Morar",
+      "statusEmpreendimento": "Venda",
+      "estagioConclusao": 100,
+      "categoria": "Minha Casa Minha Vida",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora São Paulo"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis São Paulo"
+        }
+      ],
+      "diferencias": [
+        "3 Quartos",
+        "2 Vagas Garagem",
+        "Área de Lazer",
+        "Salão de Festas"
+      ],
+      "nomeEmpreendimento": "Residencial Vila Olímpia"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "15115001",
+      "estado": "SP",
+      "cidade": "Bady Bassit",
+      "bairro": "Jardim Paulista",
+      "localizacao": "Rua das Flores, Bady Bassit - SP",
+      "statusConstrucao": "Pronto para Morar",
+      "statusEmpreendimento": "Finalizado",
+      "estagioConclusao": 100,
+      "categoria": "Alto Padrão",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Bady Bassit"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Bady Bassit"
+        }
+      ],
+      "diferencias": [
+        "4 Quartos",
+        "3 Vagas Garagem",
+        "Piscina",
+        "Área Gourmet"
+      ],
+      "nomeEmpreendimento": "Residencial Jardim Paulista"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "15115002",
+      "estado": "SP",
+      "cidade": "Bady Bassit",
+      "bairro": "Centro",
+      "localizacao": "Avenida Central, Bady Bassit - SP",
+      "statusConstrucao": "Lançamento",
+      "statusEmpreendimento": "Venda",
+      "estagioConclusao": 20,
+      "categoria": "Minha Casa Minha Vida",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Bady Bassit"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Bady Bassit"
+        }
+      ],
+      "diferencias": [
+        "2 Quartos",
+        "1 Vaga Garagem",
+        "Área de Lazer",
+        "Playground"
+      ],
+      "nomeEmpreendimento": "Residencial Centro Bady Bassit"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "79800001",
+      "estado": "MS",
+      "cidade": "Dourados",
+      "bairro": "Parque dos Coqueiros",
+      "localizacao": "Rua das Palmeiras, Dourados - MS",
+      "statusConstrucao": "Em Obras",
+      "statusEmpreendimento": "Venda",
+      "estagioConclusao": 50,
+      "categoria": "Alto Padrão",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Dourados"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Dourados"
+        }
+      ],
+      "diferencias": [
+        "3 Quartos",
+        "2 Vagas Garagem",
+        "Piscina",
+        "Quadra de Tênis",
+        "Salão de Festas"
+      ],
+      "nomeEmpreendimento": "Residencial Coqueiros"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "79800002",
+      "estado": "MS",
+      "cidade": "Dourados",
+      "bairro": "Centro",
+      "localizacao": "Avenida Central, Dourados - MS",
+      "statusConstrucao": "Pronto para Morar",
+      "statusEmpreendimento": "Ultimas Unidades",
+      "estagioConclusao": 100,
+      "categoria": "Minha Casa Minha Vida",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Dourados"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Dourados"
+        }
+      ],
+      "diferencias": [
+        "2 Quartos",
+        "1 Vaga Garagem",
+        "Área de Lazer",
+        "Churrasqueira"
+      ],
+      "nomeEmpreendimento": "Residencial Centro Dourados"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "17000006",
+      "estado": "SP",
+      "cidade": "Bauru",
+      "bairro": "Parque Vista Alegre",
+      "localizacao": "Rua das Palmeiras, Bauru - SP",
+      "statusConstrucao": "Pronto para Morar",
+      "statusEmpreendimento": "Finalizado",
+      "estagioConclusao": 100,
+      "categoria": "Minha Casa Minha Vida",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Bauru"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Bauru"
+        }
+      ],
+      "diferencias": [
+        "2 Quartos",
+        "1 Vaga Garagem",
+        "Área de Lazer",
+        "Playground"
+      ],
+      "nomeEmpreendimento": "Residencial Vista Alegre"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "17000007",
+      "estado": "SP",
+      "cidade": "Bauru",
+      "bairro": "Vila Souto",
+      "localizacao": "Avenida Nossa Senhora de Fátima, Bauru - SP",
+      "statusConstrucao": "Em Obras",
+      "statusEmpreendimento": "Venda",
+      "estagioConclusao": 50,
+      "categoria": "Alto Padrão",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Bauru"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Bauru"
+        }
+      ],
+      "diferencias": [
+        "4 Quartos",
+        "3 Vagas Garagem",
+        "Piscina",
+        "Área Gourmet"
+      ],
+      "nomeEmpreendimento": "Residencial Souto"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "17000008",
+      "estado": "SP",
+      "cidade": "Garça",
+      "bairro": "Jardim Aeroporto",
+      "localizacao": "Rua das Flores, Garça - SP",
+      "statusConstrucao": "Lançamento",
+      "statusEmpreendimento": "Venda",
+      "estagioConclusao": 30,
+      "categoria": "Alto Padrão",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Garça"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Garça"
+        }
+      ],
+      "diferencias": [
+        "3 Quartos",
+        "2 Vagas Garagem",
+        "Salão de Festas",
+        "Quadra Poliesportiva"
+      ],
+      "nomeEmpreendimento": "Residencial Aeroporto"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "17000009",
+      "estado": "SP",
+      "cidade": "Garça",
+      "bairro": "Jardim São Lucas",
+      "localizacao": "Avenida Principal, Garça - SP",
+      "statusConstrucao": "Pronto para Morar",
+      "statusEmpreendimento": "Ultimas Unidades",
+      "estagioConclusao": 100,
+      "categoria": "Minha Casa Minha Vida",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Garça"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Garça"
+        }
+      ],
+      "diferencias": [
+        "2 Quartos",
+        "1 Vaga Garagem",
+        "Playground",
+        "Churrasqueira"
+      ],
+      "nomeEmpreendimento": "Residencial São Lucas"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "01000004",
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Vila Mariana",
+      "localizacao": "Rua Domingos de Morais, São Paulo - SP",
+      "statusConstrucao": "Em Obras",
+      "statusEmpreendimento": "Finalizado",
+      "estagioConclusao": 60,
+      "categoria": "Alto Padrão",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora São Paulo"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis São Paulo"
+        }
+      ],
+      "diferencias": [
+        "5 Quartos",
+        "4 Vagas Garagem",
+        "Piscina",
+        "Área Gourmet"
+      ],
+      "nomeEmpreendimento": "Residencial Mariana"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "01000005",
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Moema",
+      "localizacao": "Avenida Ibirapuera, São Paulo - SP",
+      "statusConstrucao": "Pronto para Morar",
+      "statusEmpreendimento": "Venda",
+      "estagioConclusao": 100,
+      "categoria": "Minha Casa Minha Vida",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora São Paulo"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis São Paulo"
+        }
+      ],
+      "diferencias": [
+        "3 Quartos",
+        "2 Vagas Garagem",
+        "Área de Lazer",
+        "Salão de Festas"
+      ],
+      "nomeEmpreendimento": "Residencial Moema"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "15115003",
+      "estado": "SP",
+      "cidade": "Bady Bassit",
+      "bairro": "Jardim Itamaraty",
+      "localizacao": "Rua das Flores, Bady Bassit - SP",
+      "statusConstrucao": "Lançamento",
+      "statusEmpreendimento": "Venda",
+      "estagioConclusao": 40,
+      "categoria": "Alto Padrão",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Bady Bassit"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Bady Bassit"
+        }
+      ],
+      "diferencias": [
+        "3 Quartos",
+        "2 Vagas Garagem",
+        "Área Gourmet",
+        "Quadra Poliesportiva"
+      ],
+      "nomeEmpreendimento": "Residencial Itamaraty"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "15115004",
+      "estado": "SP",
+      "cidade": "Bady Bassit",
+      "bairro": "Jardim Primavera",
+      "localizacao": "Avenida das Flores, Bady Bassit - SP",
+      "statusConstrucao": "Pronto para Morar",
+      "statusEmpreendimento": "Ultimas Unidades",
+      "estagioConclusao": 100,
+      "categoria": "Minha Casa Minha Vida",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Bady Bassit"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Bady Bassit"
+        }
+      ],
+      "diferencias": [
+        "2 Quartos",
+        "1 Vaga Garagem",
+        "Playground",
+        "Churrasqueira"
+      ],
+      "nomeEmpreendimento": "Residencial Primavera"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "79800003",
+      "estado": "MS",
+      "cidade": "Dourados",
+      "bairro": "Jardim Água Boa",
+      "localizacao": "Rua das Flores, Dourados - MS",
+      "statusConstrucao": "Em Obras",
+      "statusEmpreendimento": "Finalizado",
+      "estagioConclusao": 60,
+      "categoria": "Alto Padrão",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Dourados"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Dourados"
+        }
+      ],
+      "diferencias": [
+        "4 Quartos",
+        "3 Vagas Garagem",
+        "Piscina",
+        "Salão de Festas"
+      ],
+      "nomeEmpreendimento": "Residencial Água Boa"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "79800004",
+      "estado": "MS",
+      "cidade": "Dourados",
+      "bairro": "Centro",
+      "localizacao": "Avenida Central, Dourados - MS",
+      "statusConstrucao": "Pronto para Morar",
+      "statusEmpreendimento": "Venda",
+      "estagioConclusao": 100,
+      "categoria": "Minha Casa Minha Vida",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Dourados"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Dourados"
+        }
+      ],
+      "diferencias": [
+        "2 Quartos",
+        "1 Vaga Garagem",
+        "Área de Lazer",
+        "Churrasqueira"
+      ],
+      "nomeEmpreendimento": "Residencial Centro Dourados"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "17000010",
+      "estado": "SP",
+      "cidade": "Bauru",
+      "bairro": "Vila Universitária",
+      "localizacao": "Rua dos Estudantes, Bauru - SP",
+      "statusConstrucao": "Lançamento",
+      "statusEmpreendimento": "Venda",
+      "estagioConclusao": 40,
+      "categoria": "Alto Padrão",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Bauru"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Bauru"
+        }
+      ],
+      "diferencias": [
+        "3 Quartos",
+        "2 Vagas Garagem",
+        "Piscina",
+        "Quadra Poliesportiva"
+      ],
+      "nomeEmpreendimento": "Residencial Universitária"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "17000011",
+      "estado": "SP",
+      "cidade": "Garça",
+      "bairro": "Jardim Primavera",
+      "localizacao": "Avenida das Flores, Garça - SP",
+      "statusConstrucao": "Pronto para Morar",
+      "statusEmpreendimento": "Venda",
+      "estagioConclusao": 100,
+      "categoria": "Minha Casa Minha Vida",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Garça"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Garça"
+        }
+      ],
+      "diferencias": [
+        "2 Quartos",
+        "1 Vaga Garagem",
+        "Playground",
+        "Área de Lazer"
+      ],
+      "nomeEmpreendimento": "Residencial Primavera"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "01000006",
+      "estado": "SP",
+      "cidade": "São Paulo",
+      "bairro": "Itaim Bibi",
+      "localizacao": "Rua João Cachoeira, São Paulo - SP",
+      "statusConstrucao": "Em Obras",
+      "statusEmpreendimento": "Ultimas Unidades",
+      "estagioConclusao": 70,
+      "categoria": "Alto Padrão",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora São Paulo"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis São Paulo"
+        }
+      ],
+      "diferencias": [
+        "4 Quartos",
+        "3 Vagas Garagem",
+        "Piscina",
+        "Área Gourmet"
+      ],
+      "nomeEmpreendimento": "Residencial Itaim Bibi"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "15115005",
+      "estado": "SP",
+      "cidade": "Bady Bassit",
+      "bairro": "Jardim das Flores",
+      "localizacao": "Avenida das Palmeiras, Bady Bassit - SP",
+      "statusConstrucao": "Pronto para Morar",
+      "statusEmpreendimento": "Ultimas Unidades",
+      "estagioConclusao": 100,
+      "categoria": "Minha Casa Minha Vida",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Bady Bassit"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Bady Bassit"
+        }
+      ],
+      "diferencias": [
+        "2 Quartos",
+        "1 Vaga Garagem",
+        "Área de Lazer",
+        "Churrasqueira"
+      ],
+      "nomeEmpreendimento": "Residencial das Flores"
+    },
+    {
+      "image": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "imageUrl": "https://d2opxh93rbxzdn.cloudfront.net/original/2X/4/40cfa8ca1f24ac29cfebcb1460b5cafb213b6105.png",
+      "cep": "79800005",
+      "estado": "MS",
+      "cidade": "Dourados",
+      "bairro": "Jardim Flórida",
+      "localizacao": "Rua dos Girassóis, Dourados - MS",
+      "statusConstrucao": "Lançamento",
+      "statusEmpreendimento": "Finalizado",
+      "estagioConclusao": 35,
+      "categoria": "Alto Padrão",
+      "fichaTecnica": [
+        {
+          "titulo": "Construtora",
+          "assunto": "Construtora Dourados"
+        },
+        {
+          "titulo": "Filiação",
+          "assunto": "Imóveis Dourados"
+        }
+      ],
+      "diferencias": [
+        "3 Quartos",
+        "2 Vagas Garagem",
+        "Área Gourmet",
+        "Salão de Festas"
+      ],
+      "nomeEmpreendimento": "Residencial Flórida"
+    }
+  ]
+}

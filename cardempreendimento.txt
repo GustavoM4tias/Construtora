@@ -1,0 +1,44 @@
+<!-- CardEmpreendimento.vue -->
+
+<template>
+  <div class="card mb-4">
+    <img :src="empreendimento.image" class="card-img-top" :alt="'Imagem de ' + empreendimento.nomeEmpreendimento" v-if="empreendimento.image" />
+    <div class="card-body">
+      <h5 class="card-title">{{ empreendimento.nomeEmpreendimento }}</h5>
+      <p class="card-text"><strong>CEP:</strong> {{ empreendimento.cep }}</p>
+      <p class="card-text"><strong>Estado:</strong> {{ empreendimento.estado }}</p>
+      <p class="card-text"><strong>Cidade:</strong> {{ empreendimento.cidade }}</p>
+      <p class="card-text"><strong>Bairro:</strong> {{ empreendimento.bairro }}</p>
+      <p class="card-text"><strong>Localização:</strong> {{ empreendimento.localizacao }}</p>
+      <p class="card-text"><strong>Status de construção:</strong> {{ empreendimento.statusConstrucao }}</p>
+      <p class="card-text" v-if="empreendimento.statusConstrucao === 'Em Obra'"><strong>Estágio de conclusão:</strong> {{ empreendimento.estagioConclusao }}%</p>
+      <div v-if="empreendimento.fichaTecnica && empreendimento.fichaTecnica.length > 0">
+        <p class="card-text"><strong>Ficha Técnica:</strong></p>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" v-for="(ficha, index) in empreendimento.fichaTecnica" :key="index">{{ ficha.titulo }}: {{ ficha.assunto }}</li>
+        </ul>
+      </div>
+      <div v-if="empreendimento.diferencias && empreendimento.diferencias.length > 0">
+        <p class="card-text"><strong>Diferenciais:</strong></p>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" v-for="(diferencial, index) in empreendimento.diferencias" :key="index">{{ diferencial }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { defineProps } from 'vue';
+
+const props = defineProps({
+  empreendimento: {
+    type: Object,
+    required: true
+  }
+});
+</script>
+
+<style scoped>
+/* Estilos específicos do componente */
+</style>

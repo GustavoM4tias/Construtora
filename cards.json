@@ -1,0 +1,75 @@
+[
+    {
+      "name": "MN Concept",
+      "type": "Edifícios",
+      "location": "Marília/SP",
+      "imageUrl": "../cards-img/concept.jpeg"
+    },
+    {
+      "name": "Golden Tower",
+      "type": "Edifícios",
+      "location": "Marília/SP",
+      "imageUrl": "../cards-img/goldentower.jpg"
+    },
+    {
+      "name": "Vitta+",
+      "type": "Edifícios",
+      "location": "Marília/SP",
+      "imageUrl": "../cards-img/vitta.png"
+    },
+    {
+      "name": "Central Park",
+      "type": "Edifícios",
+      "location": "Marília/SP",
+      "imageUrl": "../cards-img/centralpark.jpg"
+    },
+    {
+      "name": "The Royal Garden",
+      "type": "Edifícios",
+      "location": "Marília/SP",
+      "imageUrl": "../cards-img/theroyalgarden.jpg"
+    },
+    {
+      "name": "Century",
+      "type": "Edifícios",
+      "location": "Marília/SP",
+      "imageUrl": "../cards-img/century.jpg"
+    },
+    {
+      "name": "Antares",
+      "type": "Edifícios",
+      "location": "Marília/SP",
+      "imageUrl": "../cards-img/antares.jpg"
+    },
+    {
+      "name": "Green Park",
+      "type": "Residencial",
+      "location": "São Paulo/SP",
+      "imageUrl": "https://www.visaonoticias.com/userfiles/images/20231109_190204%20%20EDIT.jpg"
+    },
+    {
+      "name": "Blue Towers",
+      "type": "Comercial",
+      "location": "Rio de Janeiro/RJ",
+      "imageUrl": "https://www.visaonoticias.com/userfiles/images/20231109_190204%20%20EDIT.jpg"
+    },
+    {
+      "name": "Marília Shopping",
+      "type": "Comercial",
+      "location": "Marília/SP",
+      "imageUrl": "../cards-img/mariliashopping.png"
+    },
+    {
+      "name": "Unimed",
+      "type": "Comercial",
+      "location": "Marília/SP",
+      "imageUrl": "../cards-img/unimed.png"
+    },
+    {
+      "name": "Esmeralda Plaza Shopping",
+      "type": "Comercial",
+      "location": "Marília/SP",
+      "imageUrl": "../cards-img/esmeraldashopping.jpeg"
+    }
+  ]
+  
