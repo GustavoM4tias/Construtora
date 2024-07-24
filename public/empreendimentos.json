@@ -56,7 +56,7 @@
         "2 Quartos",
         "1 Vaga Garagem",
         "Playground",
-        "Churrasqueira"
+        "Área de Churrasco"
       ],
       "nomeEmpreendimento": "Residencial Garça"
     },
@@ -192,7 +192,7 @@
       "estado": "SP",
       "cidade": "Bauru",
       "bairro": "Vila Universitária",
-      "localizacao": "Avenida Engenheiro Luiz Edmundo Carrijo Coube, Bauru - SP",
+      "localizacao": "Avenida Luiz Edmundo, Bauru - SP",
       "statusConstrucao": "Pronto para Morar",
       "statusEmpreendimento": "Finalizado",
       "estagioConclusao": 100,
@@ -272,7 +272,7 @@
         "2 Quartos",
         "1 Vaga Garagem",
         "Playground",
-        "Churrasqueira"
+        "Área de Churrasco"
       ],
       "nomeEmpreendimento": "Residencial Europa"
     },
@@ -283,7 +283,7 @@
       "estado": "SP",
       "cidade": "São Paulo",
       "bairro": "Brooklin",
-      "localizacao": "Avenida Engenheiro Luís Carlos Berrini, São Paulo - SP",
+      "localizacao": "Avenida Luís Carlos, São Paulo - SP",
       "statusConstrucao": "Lançamento",
       "statusEmpreendimento": "Ultimas Unidades",
       "estagioConclusao": 30,
@@ -365,7 +365,7 @@
         "Piscina",
         "Área Gourmet"
       ],
-      "nomeEmpreendimento": "Residencial Jardim Paulista"
+      "nomeEmpreendimento": "Jardim Paulista"
     },
     {
       "image": "https://www.menin.com.br/wp-content/uploads/2024/06/2-torres-750x375.jpeg",
@@ -395,7 +395,7 @@
         "Área de Lazer",
         "Playground"
       ],
-      "nomeEmpreendimento": "Residencial Centro Bady Bassit"
+      "nomeEmpreendimento": "Residencial Bady"
     },
     {
       "image": "https://www.menin.com.br/wp-content/uploads/2024/06/2-torres-750x375.jpeg",
@@ -454,9 +454,9 @@
         "2 Quartos",
         "1 Vaga Garagem",
         "Área de Lazer",
-        "Churrasqueira"
+        "Área de Churrasco"
       ],
-      "nomeEmpreendimento": "Residencial Centro Dourados"
+      "nomeEmpreendimento": "Centro Dourados"
     },
     {
       "image": "https://www.menin.com.br/wp-content/uploads/2024/06/2-torres-750x375.jpeg",
@@ -486,7 +486,7 @@
         "Área de Lazer",
         "Playground"
       ],
-      "nomeEmpreendimento": "Residencial Vista Alegre"
+      "nomeEmpreendimento": "Residencial Alegre"
     },
     {
       "image": "https://www.menin.com.br/wp-content/uploads/2024/06/2-torres-750x375.jpeg",
@@ -495,7 +495,7 @@
       "estado": "SP",
       "cidade": "Bauru",
       "bairro": "Vila Souto",
-      "localizacao": "Avenida Nossa Senhora de Fátima, Bauru - SP",
+      "localizacao": "Avenida Fátima Assunção, Bauru - SP",
       "statusConstrucao": "Em Obras",
       "statusEmpreendimento": "Venda",
       "estagioConclusao": 50,
@@ -574,7 +574,7 @@
         "2 Quartos",
         "1 Vaga Garagem",
         "Playground",
-        "Churrasqueira"
+        "Área de Churrasco"
       ],
       "nomeEmpreendimento": "Residencial São Lucas"
     },
@@ -585,7 +585,7 @@
       "estado": "SP",
       "cidade": "São Paulo",
       "bairro": "Vila Mariana",
-      "localizacao": "Rua Domingos de Morais, São Paulo - SP",
+      "localizacao": "Rua Domingos, São Paulo - SP",
       "statusConstrucao": "Em Obras",
       "statusEmpreendimento": "Finalizado",
       "estagioConclusao": 60,
@@ -694,7 +694,7 @@
         "2 Quartos",
         "1 Vaga Garagem",
         "Playground",
-        "Churrasqueira"
+        "Área de Churrasco"
       ],
       "nomeEmpreendimento": "Residencial Primavera"
     },
@@ -754,9 +754,9 @@
         "2 Quartos",
         "1 Vaga Garagem",
         "Área de Lazer",
-        "Churrasqueira"
+        "Área de Churrasco"
       ],
-      "nomeEmpreendimento": "Residencial Centro Dourados"
+      "nomeEmpreendimento": "Residencial Dourados"
     },
     {
       "image": "https://www.menin.com.br/wp-content/uploads/2024/06/2-torres-750x375.jpeg",
@@ -874,7 +874,7 @@
         "2 Quartos",
         "1 Vaga Garagem",
         "Área de Lazer",
-        "Churrasqueira"
+        "Área de Churrasco"
       ],
       "nomeEmpreendimento": "Residencial das Flores"
     },
@@ -934,7 +934,7 @@
         "2 Quartos",
         "1 Vaga Garagem",
         "Área de Lazer",
-        "Churrasqueira"
+        "Área de Churrasco"
       ],
       "nomeEmpreendimento": "Residencial das Flores"
     },
