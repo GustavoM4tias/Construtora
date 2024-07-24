@@ -55,7 +55,7 @@ export default {
                 case 'Condomínios Residenciais':
                     this.currentTitle = title;
                     this.currentText = "Nossos condomínios residenciais combinam tecnologia avançada e qualidade excepcional. Cada detalhe é planejado para superar expectativas e garantir a satisfação dos moradores, oferecendo áreas de lazer modernas, segurança de ponta e acabamentos impecáveis.";
-                    this.currentImageUrl = "https://github.com/GustavoM4tias/Construtora/blob/main/src/assets/image/montana.jpg?raw=true";
+                    this.currentImageUrl = "https://github.com/GustavoM4tias/Construtora/blob/main/src/assets/image/residencial.jpg?raw=true";
                     break;
                 case 'Loteamentos':
                     this.currentTitle = title;
