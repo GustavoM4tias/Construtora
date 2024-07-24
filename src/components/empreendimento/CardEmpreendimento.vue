@@ -26,12 +26,12 @@ const props = defineProps({
       </span>
 
       <span v-if="empreendimento.statusEmpreendimento == 'Finalizado'"
-        class="card-venda position-absolute bg-warning rounded-top-1 p-1 px-3">
+        class="card-venda position-absolute bg-success rounded-top-1 p-1 px-3">
         <strong class="text-light fw-light fs-6">{{ empreendimento.statusEmpreendimento }}</strong>
       </span>
 
       <span v-if="empreendimento.statusEmpreendimento == 'Ultimas Unidades'"
-        class="card-venda position-absolute bg-danger rounded-top-1 p-1 px-3">
+        class="card-venda position-absolute bg-success rounded-top-1 p-1 px-3">
         <strong class="text-light fw-light fs-6">{{ empreendimento.statusEmpreendimento }}</strong>
       </span>
       

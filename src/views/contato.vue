@@ -111,19 +111,19 @@ const formataTelefone = (phone) => {
                 <div class="row py-2">
                     <span for="">Como deseja ser contatado?</span>
                     <div class="form-check ms-3">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked/>
                         <label class="form-check-label" for="flexCheckDefault">
                             Prefiro contato por Whatsapp
                         </label>
                     </div>
                     <div class="form-check ms-3">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked />
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
                         <label class="form-check-label" for="flexCheckChecked">
                             Prefiro contato por E-mail
                         </label>
                     </div>
                     <div class="form-check ms-3">
-                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked />
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
                         <label class="form-check-label" for="flexCheckChecked">
                             Prefiro contato por Telefone
                         </label>

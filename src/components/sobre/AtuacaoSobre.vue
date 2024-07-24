@@ -41,32 +41,31 @@ export default {
         return {
             currentTitle: "Edifícios Residenciais",
             currentText: "Nossos edifícios residenciais são o ápice da tecnologia avançada e da qualidade excepcional. Em cada empreendimento, nosso foco está em superar expectativas, garantindo que cada detalhe contribua para a satisfação completa dos futuros moradores.",
-            currentImageUrl: "https://www.menin.com.br/wp-content/uploads/2024/06/drone-concept-1.jpeg"
+            currentImageUrl: "../../assets/image/concept.jpeg"
         };
     },
     methods: {
         updateContent(title) {
-            // Simule a mudança de conteúdo com base no título
             switch (title) {
                 case 'Edifícios Residenciais':
                     this.currentTitle = title;
                     this.currentText = "Nossos edifícios residenciais são o ápice da tecnologia avançada e da qualidade excepcional. Em cada empreendimento, nosso foco está em superar expectativas, garantindo que cada detalhe contribua para a satisfação completa dos futuros moradores.";
-                    this.currentImageUrl = "https://www.menin.com.br/wp-content/uploads/2024/06/drone-concept-1.jpeg";
+                    this.currentImageUrl = "../../assets/image/concept.jpeg";
                     break;
                 case 'Condomínios Residenciais':
                     this.currentTitle = title;
                     this.currentText = "Nossos condomínios residenciais combinam tecnologia avançada e qualidade excepcional. Cada detalhe é planejado para superar expectativas e garantir a satisfação dos moradores, oferecendo áreas de lazer modernas, segurança de ponta e acabamentos impecáveis.";
-                    this.currentImageUrl = "https://www.menin.com.br/wp-content/uploads/2024/06/FACHADA_64e3769aa028c.jpeg";
+                    this.currentImageUrl = "../../assets/image/montana.jpg";
                     break;
                 case 'Loteamentos':
                     this.currentTitle = title;
                     this.currentText = "Nossos loteamentos oferecem infraestrutura robusta e localização estratégica. Com urbanização de alta qualidade, terrenos prontos para receber projetos, e serviços essenciais, criamos comunidades sustentáveis e harmoniosas.";
-                    this.currentImageUrl = "https://www.menin.com.br/wp-content/uploads/2024/06/site_662951ca4a469.jpeg";
+                    this.currentImageUrl = "../../assets/image/boulevard.jpeg";
                     break;
                 case 'Empreendimentos Comerciais':
                     this.currentTitle = title;
                     this.currentText = "Nossos empreendimentos comerciais são inovadores e funcionais. Projetados para atender às necessidades de negócios modernos, oferecemos espaços versáteis e bem localizados, maximizando a eficiência e proporcionando um ambiente atraente para clientes e colaboradores.";
-                    this.currentImageUrl = "https://media-cdn.tripadvisor.com/media/photo-s/0f/75/b9/06/shopping-marilia.jpg";
+                    this.currentImageUrl = "../../assets/image/shopping.png";
                     break;
                 default:
                     break;
@@ -74,8 +73,6 @@ export default {
         }
     }
 }
-
-// https://horahnoticia.com.br/wp-content/uploads/2021/04/03.jpg foto shopping 2
 </script>
 
 <style scoped>

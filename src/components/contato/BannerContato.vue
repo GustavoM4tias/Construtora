@@ -16,7 +16,7 @@
 <style scoped>
 .banner {
     min-height: 40vh;
-    background-image: url(https://www.menin.com.br/wp-content/uploads/2024/04/drumond.jpg);
+    background-image: url("https://www.menin.com.br/wp-content/uploads/2024/04/drumond.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
