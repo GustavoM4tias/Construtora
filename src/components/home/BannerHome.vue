@@ -33,6 +33,7 @@ import cardLar from './CardLar.vue'
         <div class="carousel-caption d-md-block">
           <h1 class="titulo">Urban Esmeraldas</h1>
           <p class="texto">A exclusividade que você merece em Marília</p>
+          <button class="btn btn-primary">Surpreenda-se</button>
         </div>
       </div>
       <div class="carousel-item">
@@ -41,6 +42,7 @@ import cardLar from './CardLar.vue'
         <div class="carousel-caption d-md-block">
           <h1 class="titulo">Menin Mond</h1>
           <p class="texto">O novo conceito de Sofisticação</p>
+          <button class="btn btn-primary">Surpreenda-se</button>
         </div>
       </div>
       <div class="carousel-item">
@@ -49,6 +51,7 @@ import cardLar from './CardLar.vue'
         <div class="carousel-caption d-md-block">
           <h1 class="titulo">Adhara Star Club</h1>
           <p class="texto">Um novo padrão de vida te espera na região próxima ao Marília Shopping</p>
+          <button class="btn btn-primary">Surpreenda-se</button>
         </div>
       </div>
       <div class="carousel-item">
@@ -57,6 +60,7 @@ import cardLar from './CardLar.vue'
         <div class="carousel-caption d-md-block">
           <h1 class="titulo">Wish</h1>
           <p class="texto">Seu novo desejo</p>
+          <button class="btn btn-primary">Surpreenda-se</button>
         </div>
       </div>
       <div class="carousel-item">
@@ -65,6 +69,7 @@ import cardLar from './CardLar.vue'
         <div class="carousel-caption d-md-block">
           <h1 class="titulo">Drumond Residencial</h1>
           <p class="texto">Uma conbinação perfeita de conforto, segurança e localização privilegiada!</p>
+          <button class="btn btn-primary">Surpreenda-se</button>
         </div>
       </div>
       <div class="carousel-item">
@@ -73,6 +78,7 @@ import cardLar from './CardLar.vue'
         <div class="carousel-caption d-md-block">
           <h1 class="titulo">Santa Madalena</h1>
           <p class="texto">Casa de 2 quartos em ótima localização anexo ao Bairro Cavalari.</p>
+          <button class="btn btn-primary">Surpreenda-se</button>
         </div>
       </div>
       <div class="carousel-item">
@@ -81,6 +87,7 @@ import cardLar from './CardLar.vue'
         <div class="carousel-caption d-md-block">
           <h1 class="titulo">Terras de São Paulo <br> Fase 2</h1>
           <p class="texto">Casa de 2 quartos em ótima localização anexo ao Bairro Cavalari.</p>
+          <button class="btn btn-primary">Surpreenda-se</button>
         </div>
       </div>
       <div class="carousel-item">
@@ -89,6 +96,7 @@ import cardLar from './CardLar.vue'
         <div class="carousel-caption d-md-block">
           <h1 class="titulo">Residencial Jardim Marina <br> Fase 3</h1>
           <p class="texto">Casa de 2 quartos em ótima localização anexo ao Bairro Cavalari.</p>
+          <button class="btn btn-primary">Surpreenda-se</button>
         </div>
       </div>
       <div class="carousel-item">
@@ -97,6 +105,7 @@ import cardLar from './CardLar.vue'
         <div class="carousel-caption d-md-block">
           <h1 class="titulo">View 360</h1>
           <p class="texto">O primeiro empreendimento inteligente de Marília...</p>
+          <button class="btn btn-primary">Surpreenda-se</button>
         </div>
       </div>
       <div class="carousel-item">
@@ -105,6 +114,7 @@ import cardLar from './CardLar.vue'
         <div class="carousel-caption d-md-block">
           <h1 class="titulo">Horizon</h1>
           <p class="texto">O primeiro empreendimento inteligente de Marília...</p>
+          <button class="btn btn-primary">Surpreenda-se</button>
         </div>
       </div>
       <button class="botão carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
