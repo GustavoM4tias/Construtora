@@ -41,7 +41,7 @@ export default {
         return {
             currentTitle: "Edifícios Residenciais",
             currentText: "Nossos edifícios residenciais são o ápice da tecnologia avançada e da qualidade excepcional. Em cada empreendimento, nosso foco está em superar expectativas, garantindo que cada detalhe contribua para a satisfação completa dos futuros moradores.",
-            currentImageUrl: "../../assets/image/concept.jpeg"
+            currentImageUrl: "https://github.com/GustavoM4tias/Construtora/blob/main/src/assets/image/concept.jpeg?raw=true"
         };
     },
     methods: {
@@ -50,22 +50,22 @@ export default {
                 case 'Edifícios Residenciais':
                     this.currentTitle = title;
                     this.currentText = "Nossos edifícios residenciais são o ápice da tecnologia avançada e da qualidade excepcional. Em cada empreendimento, nosso foco está em superar expectativas, garantindo que cada detalhe contribua para a satisfação completa dos futuros moradores.";
-                    this.currentImageUrl = "../../assets/image/concept.jpeg";
+                    this.currentImageUrl = "https://github.com/GustavoM4tias/Construtora/blob/main/src/assets/image/concept.jpeg?raw=true";
                     break;
                 case 'Condomínios Residenciais':
                     this.currentTitle = title;
                     this.currentText = "Nossos condomínios residenciais combinam tecnologia avançada e qualidade excepcional. Cada detalhe é planejado para superar expectativas e garantir a satisfação dos moradores, oferecendo áreas de lazer modernas, segurança de ponta e acabamentos impecáveis.";
-                    this.currentImageUrl = "../../assets/image/montana.jpg";
+                    this.currentImageUrl = "https://github.com/GustavoM4tias/Construtora/blob/main/src/assets/image/montana.jpg?raw=true";
                     break;
                 case 'Loteamentos':
                     this.currentTitle = title;
                     this.currentText = "Nossos loteamentos oferecem infraestrutura robusta e localização estratégica. Com urbanização de alta qualidade, terrenos prontos para receber projetos, e serviços essenciais, criamos comunidades sustentáveis e harmoniosas.";
-                    this.currentImageUrl = "../../assets/image/boulevard.jpeg";
+                    this.currentImageUrl = "https://github.com/GustavoM4tias/Construtora/blob/main/src/assets/image/boulevard.jpeg?raw=true";
                     break;
                 case 'Empreendimentos Comerciais':
                     this.currentTitle = title;
                     this.currentText = "Nossos empreendimentos comerciais são inovadores e funcionais. Projetados para atender às necessidades de negócios modernos, oferecemos espaços versáteis e bem localizados, maximizando a eficiência e proporcionando um ambiente atraente para clientes e colaboradores.";
-                    this.currentImageUrl = "../../assets/image/shopping.png";
+                    this.currentImageUrl = "https://github.com/GustavoM4tias/Construtora/blob/main/src/assets/image/shopping.png?raw=true";
                     break;
                 default:
                     break;
