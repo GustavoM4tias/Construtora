@@ -18,6 +18,10 @@ const props = defineProps({
   imageUrl: {
     type: String,
     required: true
+  },
+  description: {
+    type: String,
+    required: true
   }
 });
 
@@ -27,9 +31,9 @@ const toggleModal = () => {
   showModal.value = !showModal.value;
 };
 
-const mouseX = ref(50); // Inicialmente centralizado
-const mouseY = ref(50); // Inicialmente centralizado
-const isZoomed = ref(true); // Começa com zoom ativado
+const mouseX = ref(0); // Inicialmente centralizado
+const mouseY = ref(0); // Inicialmente centralizado
+const isZoomed = ref(false); // Começa com zoom ativado
 
 const handleMouseMove = (event) => {
   if (isZoomed.value) {
@@ -45,8 +49,10 @@ const toggleZoom = () => {
 </script>
 
 <template>
+
   <div class="container-fluid d-flex">
-    <div :style="{ backgroundImage: 'url(' + imageUrl + ')' }" class="card-empreendimento d-flex rounded-5 m-auto" v-motion-slide-visible-once-bottom :duration="100" @click="toggleModal">
+    <div :style="{ backgroundImage: 'url(' + imageUrl + ')' }" class="card-empreendimento d-flex rounded-5 m-auto"
+      v-motion-slide-visible-once-bottom :duration="100" @click="toggleModal">
       <div class="textos-card text-center mt-auto rounded-5 p-4 text-white">
         <h2 class="titulo-card text-start ms-2 m-0">{{ name }}</h2>
         <p class="local-card text-start ms-2 m-0">{{ type }}</p>
@@ -54,14 +60,28 @@ const toggleZoom = () => {
       </div>
     </div>
 
-    <div v-if="showModal" class="modal-overlay" @click="toggleModal"><i class="bi bi-x-lg fs-1 text-light position-absolute top-0 end-0 p-5"></i>
+    <div v-if="showModal" class="modal-overlay" @click="toggleModal"><i
+        class="bi bi-x-lg fs-1 text-light position-absolute top-0 end-0 p-5"></i>
+
       <div class="modal-content" @click.stop>
-        <div class="zoom-container" @mousemove="handleMouseMove" @mouseleave="isZoomed = false" @mouseenter="isZoomed = true" @click="toggleZoom">
-          <img :src="imageUrl" alt="Ampliada" :style="{ transformOrigin: mouseX + '% ' + mouseY + '%', transform: isZoomed ? 'scale(2)' : 'scale(1)' }" />
+
+        <div class="zoom-container" @mousemove="handleMouseMove" @mouseleave="isZoomed = false"
+          @mouseenter="isZoomed = true" @click="toggleZoom">
+          <img :src="imageUrl" alt="Ampliada"
+            :style="{ transformOrigin: mouseX + '% ' + mouseY + '%', transform: isZoomed ? 'scale(2)' : 'scale(1)' }" />
         </div>
+
+        <div class="textos-modal position-absolute bottom-0 start-0 text-light p-4">
+          <h1 class="titulo-card m-0 pt-4">{{ name }}</h1>
+          <p class="local-card m-0 fs-6"><i class="bi bi-geo-alt-fill"></i> {{ location }}</p>
+          <p class="local-card m-0 fs-5">{{ description }}</p>
+        </div>
+
       </div>
+
     </div>
   </div>
+
 </template>
 
 <style scoped>
@@ -69,7 +89,7 @@ const toggleZoom = () => {
   width: 400px;
   height: 500px;
   box-shadow: 0px -180px 250px inset rgba(1, 5, 50, 0.9),
-              5px 5px 25px rgba(0, 0, 0, .3);
+    5px 5px 25px rgba(0, 0, 0, .3);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -78,7 +98,7 @@ const toggleZoom = () => {
 
 .card-empreendimento:hover {
   box-shadow: 0px -150px 150px inset rgba(1, 5, 53, 0.4),
-              5px 5px 15px rgba(0, 0, 0, 0.6);
+    5px 5px 15px rgba(0, 0, 0, 0.6);
   transform: scale(1.02);
   transition: .2s;
   cursor: pointer;
@@ -106,6 +126,11 @@ const toggleZoom = () => {
   justify-content: center;
   border-radius: 10px;
   overflow: hidden;
+}
+
+.textos-modal {
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 -200px 40px -50px rgba(0, 0, 0, 0.3);
 }
 
 .zoom-container {

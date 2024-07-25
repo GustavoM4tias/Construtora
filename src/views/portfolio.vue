@@ -20,7 +20,7 @@ onMounted(async () => {
     <div>
         <div class="container card-container py-5 my-lg-5">
             <CardPortfolio class="mb-5" v-for="card in cards" :key="card.name" :name="card.name" :type="card.type"
-                :location="card.location" :imageUrl="card.imageUrl" />
+                :location="card.location" :imageUrl="card.imageUrl" :description="card.description" />
         </div>
     </div>
 </template>
