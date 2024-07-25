@@ -1,10 +1,10 @@
 <template>
     <nav class="navbar navbar-expand-lg p-3">
-        <div class="container-fluid mx-lg-5 mx-md-2 mx-sm-0">
+        <div class="container-fluid d-flex">
             <div class="navbar-brand">
                 <RouterLink to="/" @click.native="closeNavbar">
                     <img src="https://www.menin.com.br/wp-content/uploads/2024/04/LOGO_MENIN_BRANCO.png" alt=""
-                        height="50px">
+                        height="40px">
                 </RouterLink>
             </div>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
@@ -14,9 +14,10 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <RouterLink class="nav-link" @click.native="closeNavbar" to="/empreendimentos">Empreendimentos</RouterLink>
+                        <RouterLink class="nav-link" @click.native="closeNavbar" to="/empreendimentos">Empreendimentos
+                        </RouterLink>
                     </li>
                     <li class="nav-item">
                         <RouterLink class="nav-link" @click.native="closeNavbar" to="/portfolio">Portfolio</RouterLink>
@@ -64,16 +65,17 @@ const closeNavbar = () => {
 .navbar {
     background-color: #0a1b27;
 }
+
 .nav-link {
     position: relative;
     padding-bottom: 5px;
     color: white;
-    font-size: 2vh;
+    font-size: 1.8vh;
 }
 
 .nav-link:hover,
 .nav-link.active,
-.nav-link:focus { 
+.nav-link:focus {
     border-bottom: 2px solid #007bff;
     color: white;
 }
@@ -82,6 +84,28 @@ const closeNavbar = () => {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.container-fluid {
+    width: 80% !important;
+}
+
+@media (max-width: 1500px) {
+    .container-fluid {
+        width: 90% !important;
+    }
+}
+
+@media (max-width: 1300px) {
+    .container-fluid {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 1150px) {
+.nav-link {
+    font-size: 1.4vh;
+}
 }
 
 @media (max-width: 991.98px) {
@@ -108,5 +132,7 @@ const closeNavbar = () => {
     .navbar-toggler {
         color: white !important;
     }
+
+
 }
 </style>
