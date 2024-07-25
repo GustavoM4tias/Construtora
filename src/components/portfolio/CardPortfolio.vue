@@ -60,8 +60,9 @@ const toggleZoom = () => {
       </div>
     </div>
 
-    <div v-if="showModal" class="modal-overlay" @click="toggleModal"><i
-        class="bi bi-x-lg fs-1 text-light position-absolute top-0 end-0 p-5"></i>
+    <div v-if="showModal" class="modal-overlay" @click="toggleModal">
+      
+      <i class="bi bi-x-lg fs-1 text-light position-absolute top-0 end-0 p-5"></i>
 
       <div class="modal-content" @click.stop>
 
@@ -144,5 +145,14 @@ const toggleZoom = () => {
   height: 100%;
   object-fit: cover;
   transition: transform 0.2s;
+}
+
+
+@media screen and (max-width: 900px) {
+  .modal-content {
+    width: 90%;
+    height: 600px;
+  }
+
 }
 </style>
