@@ -44,18 +44,18 @@ const prev = () => {
     </div>
 
     <div class="container-fluid cards-empreendimento d-flex flex-column pb-5 mb-5" v-motion-slide-bottom :duration="800">
-      <div class="d-flex justify-content-center flex-wrap position-relative">
-        <button @click="prev" class="carousel-button left-button">‹</button>
 
-        <transition-group name="slide-fade" tag="div" class="d-flex">
+      <div class="d-flex justify-content-center  flex-wrap position-relative">
+        
+        <button @click="prev" class="bg-transparent border-0"><i class="bi bi-chevron-left fs-1"></i></button>
+
           <CardEmpreendimento 
             v-for="(empreendimento, index) in empreendimentos.slice(startIndex, startIndex + 3)" 
             :key="index" 
             :empreendimento="empreendimento" 
           />
-        </transition-group>
         
-        <button @click="next" class="carousel-button right-button">›</button>
+        <button @click="next" class="bg-transparent border-0"><i class="bi bi-chevron-right fs-1"></i></button>
       </div>
 
       <RouterLink class="btn btn-outline-primary p-2 fs-5 m-auto" to="/empreendimentos">Visualizar Todos 
@@ -84,35 +84,5 @@ template {
   overflow: hidden;
 }
 
-.carousel-button {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  font-size: 2rem;
-  cursor: pointer;
-  z-index: 10;
-}
 
-.left-button {
-  left: 10px;
-}
-
-.right-button {
-  right: 10px;
-}
-
-.slide-fade-enter-active, .slide-fade-leave-active {
-  transition: all 0.5s ease;
-}
-
-.slide-fade-enter, .slide-fade-leave-to {
-  opacity: 0;
-  transform: translateX(100%);
-}
-
-.slide-fade-leave-to {
-  transform: translateX(-100%);
-}
 </style>
