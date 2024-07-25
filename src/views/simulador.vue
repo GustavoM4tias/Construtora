@@ -53,9 +53,8 @@ const formataSalario = (value) => {
         <BannerSimulador />
 
         <div class="container w-50">
-            <div class="rounded-4 p-3 p-lg-4 m-2 my-5 m-lg-5 shadow">
-                <h5 class="text-center fw-bold pb-4 py-2">Preencha o formulário abaixo e nossa equipe entrará em contato
-                    com você:</h5>
+            <h3 class="titulo text-center pt-5">Preencha o formulário abaixo e nossa equipe entrará em contato com você:</h3>
+            <div class="rounded-4 px-4 py-3 px-lg-5 py-lg-4 m-2 my-5 m-lg-5 shadow">
                 <div class="row py-4">
                     <div class="col">
                         <label>Seu Nome <span class="text-danger">*</span></label>
@@ -108,6 +107,10 @@ const formataSalario = (value) => {
 <style scoped>
 .custom-line-height {
     line-height: .8;
+}
+
+.titulo {
+    color: #1F285A;
 }
 
 
