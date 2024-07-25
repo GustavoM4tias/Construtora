@@ -43,7 +43,7 @@ import cardLar from './CardLar.vue'
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://www.menin.com.br/wp-content/uploads/2024/05/Fachada_Mond_High.jpg" class="image-banner"
+        <img src="https://www.menin.com.br/wp-content/uploads/2024/03/Fachada_Mond_High_6564e584c80ae.jpeg" class="image-banner"
           alt="...">
         <div class="carousel-caption d-md-block" v-motion-slide-visible-once-bottom :duration="800">
           <h1 class="titulo">Menin Mond</h1>
@@ -105,7 +105,7 @@ import cardLar from './CardLar.vue'
         </div>
       </div>
       <div class="carousel-item">
-        <img src="https://www.menin.com.br/wp-content/uploads/2024/06/Perspectiva-ilustrada-da-Fachada-.jpg"
+        <img src="https://www.menin.com.br/wp-content/uploads/2024/05/view360.jpg"
           class="image-banner" alt="...">
         <div class="carousel-caption d-md-block" v-motion-slide-visible-once-bottom :duration="800">
           <h1 class="titulo">View 360</h1>
