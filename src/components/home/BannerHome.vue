@@ -25,9 +25,15 @@ import cardLar from './CardLar.vue'
         aria-label="Slide 9"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" class="px-2 px-lg-3"
         aria-label="Slide 10"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" class="px-2 px-lg-3"
+        aria-label="Slide 11"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
+        <img src="https://www.menin.com.br/wp-content/uploads/2024/06/Topo_site_abre-2.jpg" class="image"
+          alt="...">
+      </div>
+      <div class="carousel-item">
         <img src="https://www.menin.com.br/wp-content/uploads/2024/03/MEN_Urban_Portaria_R00_Final-scaled.jpg"
           class="image-banner" alt="...">
         <div class="carousel-caption d-md-block" v-motion-slide-visible-once-bottom :duration="800">
@@ -136,12 +142,17 @@ import cardLar from './CardLar.vue'
   width: 100vw;
 }
 
+.image,
 .image-banner {
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
   object-fit: cover;
   filter: brightness(70%);
+}
+
+.image {
+  filter: brightness(90%)!important;
 }
 
 .carousel-inner {
