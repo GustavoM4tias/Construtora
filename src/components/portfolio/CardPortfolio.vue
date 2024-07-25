@@ -27,14 +27,16 @@ const toggleModal = () => {
   showModal.value = !showModal.value;
 };
 
-const mouseX = ref(0);
-const mouseY = ref(0);
-const isZoomed = ref(false);
+const mouseX = ref(50); // Inicialmente centralizado
+const mouseY = ref(50); // Inicialmente centralizado
+const isZoomed = ref(true); // Começa com zoom ativado
 
 const handleMouseMove = (event) => {
-  const rect = event.target.getBoundingClientRect();
-  mouseX.value = ((event.clientX - rect.left) / rect.width) * 100;
-  mouseY.value = ((event.clientY - rect.top) / rect.height) * 100;
+  if (isZoomed.value) {
+    const rect = event.target.getBoundingClientRect();
+    mouseX.value = ((event.clientX - rect.left) / rect.width) * 100;
+    mouseY.value = ((event.clientY - rect.top) / rect.height) * 100;
+  }
 };
 
 const toggleZoom = () => {
@@ -54,7 +56,7 @@ const toggleZoom = () => {
 
     <div v-if="showModal" class="modal-overlay" @click="toggleModal"><i class="bi bi-x-lg fs-1 text-light position-absolute top-0 end-0 p-5"></i>
       <div class="modal-content" @click.stop>
-        <div class="zoom-container" @mousemove="handleMouseMove" @mouseleave="isZoomed = false" @mouseenter="isZoomed = true">
+        <div class="zoom-container" @mousemove="handleMouseMove" @mouseleave="isZoomed = false" @mouseenter="isZoomed = true" @click="toggleZoom">
           <img :src="imageUrl" alt="Ampliada" :style="{ transformOrigin: mouseX + '% ' + mouseY + '%', transform: isZoomed ? 'scale(2)' : 'scale(1)' }" />
         </div>
       </div>
