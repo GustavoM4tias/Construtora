@@ -114,7 +114,7 @@ onMounted(async () => {
   color: rgb(26, 11, 170);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
 
   .button-container>div,
   .button-container>button {

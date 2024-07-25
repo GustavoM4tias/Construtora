@@ -72,7 +72,7 @@ const obterIcone = (diferencial) => {
     <div class="card-body p-4">
       <h4 class="card-title">{{ empreendimento.nomeEmpreendimento }}</h4>
       <p class="card-text">
-        <strong><i class="bi bi-geo-alt-fill"></i></strong> <span class="text-local">{{ empreendimento.localizacao
+        <strong><i class="bi bi-geo-alt-fill fs-6"></i></strong> <span class="text-local">{{ empreendimento.localizacao
           }}</span>
       </p>
       <div class="container-diferencial pb-3 ps-2"
@@ -102,7 +102,8 @@ const obterIcone = (diferencial) => {
 
 .card-text {
   color: rgba(90, 90, 90, .7);
-  font-size: .8vw;
+  font-size: 1.2vw;
+  margin-top: -10px
 }
 
 .card-img-top {

@@ -38,7 +38,7 @@
                         <RouterLink class="nav-link" @click.native="closeNavbar" to="/contato">Contato</RouterLink>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link search" @click.native="closeNavbar" href="#"><i class="bi bi-search"></i></a>
+                        <a class="nav-link search" @click.native="closeNavbar" href="#"><i class="bi bi-search ps-2"></i></a>
                     </li>
                 </ul>
                 <form class="d-flex">
