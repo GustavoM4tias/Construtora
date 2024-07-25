@@ -4,10 +4,10 @@
 
 <template>
     <div class="container-fluid d-flex">
-        <div class="card-1 p-5 d-flex flex-column justify-content-center text-start">
+        <div class="card-1 p-5 ms-lg-5 d-flex flex-column justify-content-center text-start">
             <div class="textos px-lg-5 px-sm-0">
                 <h2 class="titulo fw-bold fs-1">Condições Facilitadas <br> para o Seu Novo Lar</h2>
-                <span class="subtitulo"> Realize o sonho do seu lar com a Menin </span>
+                <span class="subtitulo fs-5"> Realize o sonho do seu lar com a Menin </span>
                 <p class="texto fs-5">Na Menin, entendemos a importância de facilitar o caminho<br>
                     para você alcançar o sonho do lar próprio. Por isso, oferecemos condições<br>
                     especiais que tornam a compra do seu imóvel mais acessível e sem complicações.</p>

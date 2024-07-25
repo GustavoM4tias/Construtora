@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, onUnmounted } from 'vue';
 import axios from 'axios';
 import CardEmpreendimento from '../components/empreendimento/CardEmpreendimento.vue';
 import BannerHome from '../components/home/BannerHome.vue';
@@ -8,6 +8,19 @@ import Conheca from '../components/home/Conheca.vue';
 
 const empreendimentos = ref([]);
 const startIndex = ref(0);
+const screenWidth = ref(window.innerWidth);
+
+const updateScreenWidth = () => {
+  screenWidth.value = window.innerWidth;
+};
+
+onMounted(() => {
+  window.addEventListener('resize', updateScreenWidth);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('resize', updateScreenWidth);
+});
 
 onMounted(async () => {
   try {
@@ -19,7 +32,8 @@ onMounted(async () => {
 });
 
 const next = () => {
-  if (startIndex.value < empreendimentos.value.length - 3) {
+  const itemsToShow = screenWidth.value < 1000 ? 1 : 3;
+  if (startIndex.value < empreendimentos.value.length - itemsToShow) {
     startIndex.value++;
   }
 };
@@ -30,6 +44,7 @@ const prev = () => {
   }
 };
 </script>
+
 
 
 
@@ -45,20 +60,20 @@ const prev = () => {
 
     <div class="container-fluid cards-empreendimento d-flex flex-column pb-5 mb-5" v-motion-slide-bottom :duration="800">
 
-      <div class="d-flex justify-content-center  flex-wrap position-relative">
+      <div class="d-flex justify-content-center position-relative">
         
         <button @click="prev" class="bg-transparent border-0"><i class="bi bi-chevron-left fs-1"></i></button>
 
-          <CardEmpreendimento 
-            v-for="(empreendimento, index) in empreendimentos.slice(startIndex, startIndex + 3)" 
-            :key="index" 
-            :empreendimento="empreendimento" 
-          />
+        <CardEmpreendimento 
+          v-for="(empreendimento, index) in empreendimentos.slice(startIndex, startIndex + (screenWidth < 1000 ? 1 : 3))" 
+          :key="index" 
+          :empreendimento="empreendimento" 
+        />
         
         <button @click="next" class="bg-transparent border-0"><i class="bi bi-chevron-right fs-1"></i></button>
       </div>
 
-      <RouterLink class="btn btn-outline-primary p-2 fs-5 m-auto" to="/empreendimentos">Visualizar Todos 
+      <RouterLink class="btn btn-primary p-2 fs-5 m-auto" to="/empreendimentos">Visualizar Todos 
         <i class="bi bi-arrow-right fw"></i>
       </RouterLink>
     </div>
@@ -67,6 +82,7 @@ const prev = () => {
     <Conheca />
   </div>
 </template>
+
 
 
 
@@ -83,6 +99,4 @@ template {
   line-height: .8;
   overflow: hidden;
 }
-
-
 </style>
