@@ -126,6 +126,7 @@ const closeNavbar = () => {
     .nav-link:hover,
     .nav-link.active {
         color: rgb(247, 247, 247) !important;
+        font-size: 1.8vh;
     }
 
     .navbar-toggler-icon,
