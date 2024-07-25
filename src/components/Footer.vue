@@ -24,7 +24,7 @@ onMounted(() => {
         <div class="col-6 col-lg-2 mb-3">
           <h5>Menus</h5>
           <ul class="nav flex-column">
-            <li class="nav-item fw-light"><RouterLink to="/empreendimento" class="nav-link p-0">Empreendimentos</RouterLink></li>
+            <li class="nav-item fw-light"><RouterLink to="/empreendimentos" class="nav-link p-0">Empreendimentos</RouterLink></li>
             <li class="nav-item fw-light"><RouterLink to="/portfolio" class="nav-link p-0">Portfolio</RouterLink></li>
             <li class="nav-item fw-light"><RouterLink to="/simulador" class="nav-link p-0">Simulador</RouterLink></li>
             <li class="nav-item fw-light"><RouterLink to="/programas" class="nav-link p-0">Programas</RouterLink></li>
