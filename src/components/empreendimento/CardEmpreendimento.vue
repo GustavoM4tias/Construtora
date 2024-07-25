@@ -47,18 +47,18 @@ const obterIcone = (diferencial) => {
     <div class="d-flex justify-content-center align-items-end">
 
       <span v-if="empreendimento.statusEmpreendimento == 'Venda'"
-        class="card-venda position-absolute bg-success rounded-top-1 p-1 px-3">
-        <strong class="text-light fw-light fs-6">{{ empreendimento.statusEmpreendimento }}</strong>
+        class="card-venda position-absolute bg-success rounded-top-1 py-2 px-3 rounded-top">
+        <strong class="text-light fw-light fs-6"><i class="bi bi-tag-fill pe-2"></i>{{ empreendimento.statusEmpreendimento }}</strong>
       </span>
 
       <span v-if="empreendimento.statusEmpreendimento == 'Finalizado'"
-        class="card-venda position-absolute bg-success rounded-top-1 p-1 px-3">
-        <strong class="text-light fw-light fs-6">{{ empreendimento.statusEmpreendimento }}</strong>
+        class="card-venda position-absolute bg-success rounded-top-1 py-2 px-3 rounded-top">
+        <strong class="text-light fw-light fs-6"><i class="bi bi-tag-fill pe-2"></i>{{ empreendimento.statusEmpreendimento }}</strong>
       </span>
 
       <span v-if="empreendimento.statusEmpreendimento == 'Ultimas Unidades'"
-        class="card-venda position-absolute bg-success rounded-top-1 p-1 px-3">
-        <strong class="text-light fw-light fs-6">{{ empreendimento.statusEmpreendimento }}</strong>
+        class="card-venda position-absolute bg-success rounded-top-1 py-2 px-3 rounded-top">
+        <strong class="text-light fw-light fs-6"><i class="bi bi-tag-fill pe-2"></i>{{ empreendimento.statusEmpreendimento }}</strong>
       </span>
 
       <img :src="empreendimento.image" class="card-img-top rounded-top-4" height="250px"
@@ -78,7 +78,6 @@ const obterIcone = (diferencial) => {
           <i :class="obterIcone(diferencial)"></i> {{ diferencial }}<br>
         </span>
       </div>
-
       <button class="btn btn-outline-primary p-3">
         Quero Conhecer <i class="bi bi-arrow-right"></i>
       </button>
