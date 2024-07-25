@@ -48,17 +48,20 @@ const obterIcone = (diferencial) => {
 
       <span v-if="empreendimento.statusEmpreendimento == 'Venda'"
         class="card-venda position-absolute bg-success rounded-top-1 py-2 px-3 rounded-top">
-        <strong class="text-light fw-light fs-6"><i class="bi bi-tag-fill pe-2"></i>{{ empreendimento.statusEmpreendimento }}</strong>
+        <strong class="text-light fw-light fs-6"><i class="bi bi-tag-fill pe-2"></i>{{
+          empreendimento.statusEmpreendimento }}</strong>
       </span>
 
       <span v-if="empreendimento.statusEmpreendimento == 'Finalizado'"
         class="card-venda position-absolute bg-success rounded-top-1 py-2 px-3 rounded-top">
-        <strong class="text-light fw-light fs-6"><i class="bi bi-tag-fill pe-2"></i>{{ empreendimento.statusEmpreendimento }}</strong>
+        <strong class="text-light fw-light fs-6"><i class="bi bi-tag-fill pe-2"></i>{{
+          empreendimento.statusEmpreendimento }}</strong>
       </span>
 
       <span v-if="empreendimento.statusEmpreendimento == 'Ultimas Unidades'"
         class="card-venda position-absolute bg-success rounded-top-1 py-2 px-3 rounded-top">
-        <strong class="text-light fw-light fs-6"><i class="bi bi-tag-fill pe-2"></i>{{ empreendimento.statusEmpreendimento }}</strong>
+        <strong class="text-light fw-light fs-6"><i class="bi bi-tag-fill pe-2"></i>{{
+          empreendimento.statusEmpreendimento }}</strong>
       </span>
 
       <img :src="empreendimento.image" class="card-img-top rounded-top-4" height="250px"
@@ -74,10 +77,17 @@ const obterIcone = (diferencial) => {
       </p>
       <div class="container-diferencial pb-3 ps-2"
         v-if="empreendimento.diferencias && empreendimento.diferencias.length > 0">
-        <span class="diferencial" v-for="(diferencial, index) in empreendimento.diferencias.slice(0, 4)" :key="index">
+        <span class="diferencial" v-for="(diferencial, index) in empreendimento.diferencias.slice(0, 3)" :key="index">
           <i :class="obterIcone(diferencial)"></i> {{ diferencial }}<br>
         </span>
+
+        <span class="diferencial" v-if="empreendimento.estagioConclusao">
+          <i class="fa-solid fa-hammer"></i> {{ empreendimento.estagioConclusao }}% Concluído
+        </span>
+
       </div>
+
+
       <button class="btn btn-outline-primary p-3">
         Quero Conhecer <i class="bi bi-arrow-right"></i>
       </button>
