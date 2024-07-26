@@ -114,6 +114,11 @@ onMounted(async () => {
   color: rgb(26, 11, 170);
 }
 
+.form-select,
+.button-container {
+  font-family: "Montserrat", sans-serif;
+}
+
 @media screen and (max-width: 1000px) {
 
   .button-container>div,
