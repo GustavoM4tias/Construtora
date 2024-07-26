@@ -53,7 +53,7 @@ const formataSalario = (value) => {
         <BannerSimulador />
 
         <div class="container w-50">
-            <h3 class="titulo text-center pt-5">Preencha o formulário abaixo e nossa equipe entrará em contato com você:</h3>
+            <h4 class="titulo text-center pt-5">Preencha o formulário abaixo e nossa equipe entrará em contato com você:</h4>
             <div class="rounded-4 px-4 py-3 px-lg-5 py-lg-4 m-2 my-5 m-lg-5 shadow">
                 <div class="row py-4">
                     <div class="col">

@@ -50,7 +50,7 @@
 }
 
 .texto {
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     line-height: .95;
     width: 85%;
     margin: auto;
